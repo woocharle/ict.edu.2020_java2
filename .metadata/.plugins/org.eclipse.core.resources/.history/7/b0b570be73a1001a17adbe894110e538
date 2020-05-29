@@ -1,0 +1,21 @@
+package com.ict.edu3;
+
+import java.net.Socket;
+
+public class SendThread implements Runnable{
+	
+	public SendThread() {}
+	
+	public SendThread(Socket s) {
+		
+	}
+	
+
+	
+	
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+}

@@ -1,0 +1,36 @@
+package com.ict.edu3;
+
+import java.io.BufferedWriter;
+import java.io.OutputStream;
+import java.io.OutputStreamWriter;
+import java.net.Socket;
+import java.util.Scanner;
+
+public class SendThread implements Runnable{
+	Socket s;
+	Scanner sc = new Scanner(System.in);
+	
+	OutputStream out;
+	OutputStreamWriter osw;
+	BufferedWriter bw;
+	
+	public SendThread() {}
+	
+	public SendThread(Socket s) {
+		this.s = s;
+	}
+	
+	@Override
+	public void run() {
+		try {
+			while (true) {
+				System.out.print("입력: ");
+				String msg = sc.nextLine();
+				
+			}
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		
+	}
+}

@@ -1,0 +1,12 @@
+package com.ict.edu3;
+
+public class SendThread implements Runnable{
+	
+	public SendThread() {}
+	
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+}

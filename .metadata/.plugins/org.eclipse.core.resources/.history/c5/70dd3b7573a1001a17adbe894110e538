@@ -1,0 +1,7 @@
+package com.ict.edu3;
+
+public class ReceiveThread implements Runnabl {
+
+
+	
+}

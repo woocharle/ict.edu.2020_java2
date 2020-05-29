@@ -1,0 +1,14 @@
+package com.ict.edu3;
+
+public class ReceiveThread implements Runnable {
+
+	public ReceiveThread() {
+		// TODO Auto-generated constructor stub
+	}
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}

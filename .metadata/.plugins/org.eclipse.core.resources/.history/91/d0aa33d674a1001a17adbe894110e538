@@ -1,0 +1,19 @@
+package com.ict.edu3;
+
+public class ReceiveThread implements Runnable {
+
+	public ReceiveThread() {}
+	
+	public ReceiveThread(Socket s) {
+		
+	}
+	
+	
+	
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}
